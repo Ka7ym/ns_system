@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Local configuration and personal data
+.env
+.env.*
+!.env.example
+backend/app_settings.json
+backend/errors.log
+backend/hr_system.db
+backend/hr_system.db-*
+backups/*
+!backups/.gitkeep
+generated_documents/*
+!generated_documents/.gitkeep
+uploads/*
+!uploads/identity/
+uploads/identity/*
+!uploads/identity/.gitkeep
+
+# Old uploaded filled sample documents; sanitized templates are tracked instead
+templates/2f30f36f4a0c417cb0290e367af3f490.docx
+templates/36674abb9d1049cb9f2915c5b54bedaf.docx
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/*.tsbuildinfo
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

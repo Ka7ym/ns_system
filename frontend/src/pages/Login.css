@@ -1,0 +1,70 @@
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--sidebar-bg);
+}
+
+.login-card {
+  width: min(420px, 92vw);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.login-card h1 {
+  letter-spacing: -0.6px;
+}
+
+.login-card p {
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+}
+
+.login-card label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.login-card input {
+  min-height: 40px;
+}
+
+.password-field {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface-alt);
+  overflow: hidden;
+}
+
+.password-field input {
+  flex: 1;
+  min-height: 40px;
+  border: none;
+  background: transparent;
+  padding: 0 12px;
+  color: var(--text);
+}
+
+.password-toggle {
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 1;
+  padding: 0 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

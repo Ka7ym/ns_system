@@ -1,0 +1,33 @@
+.absences-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 0;
+}
+
+.absence-form h3 {
+  margin-bottom: 16px;
+}
+
+.absence-note {
+  grid-column: span 2;
+}
+
+.absence-actions {
+  justify-content: flex-end;
+  margin-top: 16px;
+}
+
+.absence-row-actions {
+  white-space: nowrap;
+}
+
+.absence-row-actions button + button {
+  margin-left: 8px;
+}
+
+@media (max-width: 760px) {
+  .absence-note {
+    grid-column: auto;
+  }
+}
